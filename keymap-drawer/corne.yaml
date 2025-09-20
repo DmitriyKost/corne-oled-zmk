@@ -18,9 +18,9 @@ layers:
   - LCTRL
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - PREV
+  - PLAY PAUSE
+  - NEXT
   - LEFT
   - DOWN
   - UP
@@ -114,10 +114,10 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - BT CLR
+  - BT PRV
+  - BT NXT
   - F11
   - F12
   - {t: ▽, type: trans}
