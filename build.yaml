@@ -20,8 +20,8 @@
 include:
   - board: nice_nano_v2
     shield: corne_left
-    cmake-args: -DOVERLAY_CONFIG=config/corne.conf -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DOVERLAY_CONFIG=/tmp/zmk-config/config/corne.conf -DCONFIG_ZMK_STUDIO=y
     snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: corne_right
-    cmake-args: -DOVERLAY_CONFIG=config/corne.conf
+    cmake-args: -DOVERLAY_CONFIG=/tmp/zmk-config/config/corne.conf
